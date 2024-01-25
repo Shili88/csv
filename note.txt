@@ -44,3 +44,6 @@ Enhance your script to handle invalid 'change' arguments gracefully. If a 'chang
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process 
 .venv\Scripts\activate
+
+python test.py in.csv
+python reader.py .\in.csv .\out.csv "1,0,piano" "2,3,mug" "3,1, 17" "4,3,0"
